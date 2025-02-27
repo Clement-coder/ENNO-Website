@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./**/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
       animation: {
@@ -9,7 +9,7 @@ export default {
       keyframes: {
         'bounce-custom': {
           '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-15px)' }, // Adjust the bounce height
+          '50%': { transform: 'translateY(-15px)' },
         },
       },
     },
